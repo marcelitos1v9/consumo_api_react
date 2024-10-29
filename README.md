@@ -20,11 +20,11 @@ Bem-vindo à nossa aplicação de gerenciamento de jogos! Esta aplicação foi d
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone https://github.com/marcelitos1v9/the-games-consumo-api-react.git
    ```
 2. Navegue até o diretório do projeto:
    ```bash
-   cd seurepositorio
+   cd the-games-consumo-api-react
    ```
 3. Instale as dependências:
    ```bash

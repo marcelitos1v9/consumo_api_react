@@ -46,4 +46,4 @@ Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICEN
 
 ## Contato
 
-Para mais informações, entre em contato pelo e-mail: contato@seuemail.com
+Para mais informações, entre em contato pelo e-mail: marceloaugustocge@seuemail.com

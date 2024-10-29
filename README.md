@@ -8,8 +8,8 @@ Bem-vindo à nossa aplicação de gerenciamento de jogos! Esta aplicação foi d
 - **Cadastro de Jogos**: Os usuários podem cadastrar novos jogos informando o título, plataforma, ano de lançamento e preço. Além disso, é possível adicionar uma descrição e imagens do jogo para enriquecer a apresentação.
 - **Interface Amigável**: A aplicação possui uma interface limpa e fácil de usar, garantindo uma experiência agradável para todos os usuários. Os elementos são organizados de forma lógica, facilitando a navegação.
 - **Responsividade**: A aplicação é totalmente responsiva, funcionando perfeitamente em dispositivos móveis e desktops. Isso garante que os usuários possam acessar suas informações de qualquer lugar.
-- **Busca e Filtros**: Os usuários podem buscar jogos por título ou aplicar filtros por plataforma e ano de lançamento, tornando a experiência de busca mais eficiente.
-- **Favoritos**: Os usuários têm a opção de marcar jogos como favoritos, permitindo um acesso rápido às suas escolhas preferidas.
+<!-- - **Busca e Filtros**: Os usuários podem buscar jogos por título ou aplicar filtros por plataforma e ano de lançamento, tornando a experiência de busca mais eficiente.
+- **Favoritos**: Os usuários têm a opção de marcar jogos como favoritos, permitindo um acesso rápido às suas escolhas preferidas. -->
 
 ## Tecnologias Utilizadas
 

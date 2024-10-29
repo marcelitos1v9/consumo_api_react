@@ -1,4 +1,5 @@
 import styles from "@/components/Menu/Menu.module.css";
+import Link from 'next/link'; // Importando o Link do Next.js
 
 const Menu = () => {
   return (
@@ -12,13 +13,13 @@ const Menu = () => {
         <div className={styles.menu}>
           <ul className={styles.menuItems} id="menuItems">
             <li>
-              <a href="#">Home</a>
+              <Link href="/">Home</Link> {/* Alterado para usar Link */}
             </li>
             <li>
-              <a href="#">Cadastrar jogos</a>
+              <Link href="/create">Cadastrar jogos</Link> {/* Alterado para usar Link */}
             </li>
             <li>
-              <a href="#">Logout</a>
+              <Link href="/logout">Logout</Link> {/* Alterado para usar Link */}
             </li>
           </ul>
         </div>

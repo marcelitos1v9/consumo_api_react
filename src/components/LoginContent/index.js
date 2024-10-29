@@ -1,4 +1,5 @@
 import styles from "@/components/LoginContent/LoginContent.module.css";
+import Link from 'next/link'; 
 
 const LoginContent = () => {
   return (
@@ -34,10 +35,12 @@ const LoginContent = () => {
                 placeholder="Digite sua senha"
                 className={`${styles.input} ${"inputPrimary"}`}
               />
-              <input type="submit"
-              value="Entrar"
-              className={`${styles.input} ${"btnPrimary"}`}
-               />
+              <Link href="/home">
+                <input type="submit"
+                value="Entrar"
+                className={`${styles.input} ${"btnPrimary"}`}
+                />
+              </Link>
             </form>
           </div>
         </div>

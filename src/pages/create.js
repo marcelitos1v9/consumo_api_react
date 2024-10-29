@@ -1,24 +1,27 @@
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
-import LoginContent from "@/components/LoginContent";
 import Head from "next/head";
+import Container from "@/components/Container";
+import Menu from "@/components/Menu";
+import Footer from "@/components/Footer";
+import CreateContent from "@/components/CreateContent/CreateContent";
 
-export default function Home() {
+export default function CreatePage() {
   return (
     <>
       <Head>
-        <title>The Games &copy; 2024</title>
-        <meta name="description" content="Consumo de uma API de games em React" />
+        <title>Criar Jogo &copy; 2024</title>
+        <meta name="description" content="Página para criar um novo jogo" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Menu />
         <Container>
-          {/* <h1 style={{color: 'white'}}>Conteúdo do login</h1> */}
-          <LoginContent />
+          <CreateContent />
         </Container>
       </main>
       <Footer />
     </>
   );
 }
+
+

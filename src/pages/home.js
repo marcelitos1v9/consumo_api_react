@@ -1,9 +1,11 @@
-import Container from "@/components/Container";
-import Footer from "@/components/Footer";
-import LoginContent from "@/components/LoginContent";
+// src/pages/home.js
 import Head from "next/head";
+import Container from "@/components/Container";
+import Menu from "@/components/Menu";
+import Footer from "@/components/Footer";
+import HomeContent from "@/components/HomeContent";
 
-export default function Home() {
+export default function Homepage() {
   return (
     <>
       <Head>
@@ -13,9 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Menu />
         <Container>
-          {/* <h1 style={{color: 'white'}}>Conteúdo do login</h1> */}
-          <LoginContent />
+          <HomeContent />
         </Container>
       </main>
       <Footer />

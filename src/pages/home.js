@@ -19,8 +19,8 @@ export default function Homepage() {
         <Container>
           <HomeContent />
         </Container>
-      </main>
       <Footer />
+      </main>
     </>
   );
 }

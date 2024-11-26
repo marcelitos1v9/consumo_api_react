@@ -6,14 +6,14 @@ const Menu = () => {
     <>
       <nav className={styles.navbar}>
         <div className={styles.logo}>
-          <a href="#">
+          <a href="/">
             <img src="images/thegames_symbol.png" alt="The Games" />
           </a>
         </div>
         <div className={styles.menu}>
           <ul className={styles.menuItems} id="menuItems">
             <li>
-              <Link href="/">Home</Link> {/* Alterado para usar Link */}
+              <Link href="/home">Home</Link> {/* Alterado para usar Link */}
             </li>
             <li>
               <Link href="/create">Cadastrar jogos</Link> {/* Alterado para usar Link */}
